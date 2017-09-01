@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
         // 创建EventHandler对象
         eventHandler = new EventHandler() {
             public void afterEvent(int event, int result, Object data) {
-                Log.d("SSSSSSSSSSSSS", "-----------AA-----------------------------");
+                Log.d("SSSSSSSSSSSSS", "-----------AA---------------------------");
                 if (data instanceof Throwable) {
                     Throwable throwable = (Throwable)data;
                     String msg = throwable.getMessage();
